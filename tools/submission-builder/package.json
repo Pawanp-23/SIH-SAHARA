@@ -1,0 +1,17 @@
+{
+  "name": "sahara-submission-builder",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Regenerates the SIH26186 idea deck and PRD for SAHARA",
+  "scripts": {
+    "icons": "node icons.js",
+    "prd": "node build_prd.js ../../docs/submission/SAHARA_PRD_v2.0.docx"
+  },
+  "dependencies": {
+    "docx": "^9.7.2",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "react-icons": "^5.7.0",
+    "sharp": "^0.35.4"
+  }
+}

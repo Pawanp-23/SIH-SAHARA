@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --color-navy-50: #eef3f9;
+  --color-navy-100: #d9e3ef;
+  --color-navy-600: #2a557f;
+  --color-navy-700: #1f3a5f;
+  --color-navy-800: #172c48;
+  --color-navy-900: #0f1e33;
+  --color-saffron-50: #fdf1e7;
+  --color-saffron-500: #e06c14;
+  --color-saffron-600: #c25a0c;
+  --color-india-50: #eaf5ec;
+  --color-india-600: #2e8b3e;
+  --color-india-700: #23702f;
+}
+
+body { @apply bg-slate-100 text-slate-800 antialiased; }
+.card { @apply bg-white rounded-xl border border-slate-200 shadow-[0_1px_2px_rgba(15,30,51,0.04)]; }
+.card-title { @apply text-[13px] font-semibold text-slate-700 tracking-tight; }
+.muted { @apply text-slate-500; }
+.btn { @apply inline-flex items-center gap-1.5 rounded-lg px-3 py-1.5 text-[13px] font-medium border border-slate-300 bg-white hover:bg-slate-50 transition disabled:opacity-50; }
+.btn-primary { @apply bg-navy-700 text-white border-navy-700 hover:bg-navy-800; }
+.btn-saffron { @apply bg-saffron-500 text-white border-saffron-500 hover:bg-saffron-600; }
