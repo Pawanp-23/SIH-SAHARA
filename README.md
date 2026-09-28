@@ -10,6 +10,7 @@ Smart India Hackathon 2026 · **SIH26186** · Ministry of Home Affairs · MedTec
 
 Team **TribeCoders** (Team ID 144977)
 
+[![CI](https://github.com/Pawanp-23/SIH-SAHARA/actions/workflows/ci.yml/badge.svg)](https://github.com/Pawanp-23/SIH-SAHARA/actions/workflows/ci.yml)
 ![Python](https://img.shields.io/badge/Python-3.12-3776AB?logo=python&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-0.141-009688?logo=fastapi&logoColor=white)
 ![React](https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=black)
